@@ -12,3 +12,4 @@ C:\Users\AC\CSharpNETTraining\MyConsoleApp\obj\Debug\net10.0\refint\MyConsoleApp
 C:\Users\AC\CSharpNETTraining\MyConsoleApp\obj\Debug\net10.0\MyConsoleApp.pdb
 C:\Users\AC\CSharpNETTraining\MyConsoleApp\obj\Debug\net10.0\MyConsoleApp.genruntimeconfig.cache
 C:\Users\AC\CSharpNETTraining\MyConsoleApp\obj\Debug\net10.0\ref\MyConsoleApp.dll
+C:\Users\AC\CSharpNETTraining\MyConsoleApp\obj\Debug\net10.0\MyConsoleApp.sourcelink.json
