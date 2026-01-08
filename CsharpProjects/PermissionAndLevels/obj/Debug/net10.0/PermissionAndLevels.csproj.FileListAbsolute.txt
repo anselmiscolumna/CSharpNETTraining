@@ -1,0 +1,15 @@
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\bin\Debug\net10.0\PermissionAndLevels.exe
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\bin\Debug\net10.0\PermissionAndLevels.deps.json
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\bin\Debug\net10.0\PermissionAndLevels.runtimeconfig.json
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\bin\Debug\net10.0\PermissionAndLevels.dll
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\bin\Debug\net10.0\PermissionAndLevels.pdb
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\PermissionAndLevels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\PermissionAndLevels.AssemblyInfoInputs.cache
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\PermissionAndLevels.AssemblyInfo.cs
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\PermissionAndLevels.csproj.CoreCompileInputs.cache
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\PermissionAndLevels.sourcelink.json
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\PermissionAndLevels.dll
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\refint\PermissionAndLevels.dll
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\PermissionAndLevels.pdb
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\PermissionAndLevels.genruntimeconfig.cache
+C:\Users\AC\CSharpNETTraining\CsharpProjects\PermissionAndLevels\obj\Debug\net10.0\ref\PermissionAndLevels.dll
