@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using System.Diagnostics;
 // Getting started in C# with VSCode
 // Console.WriteLine("Hello, World!");
 // Console.WriteLine("Hello C#!");
@@ -324,3 +325,19 @@ Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
 */
 
 // ====================================================================================================================================================
+
+/* ***Code Block and Variable Demo*** */
+
+bool flag = true;
+int value = 0;
+
+if (flag)
+{
+  Console.WriteLine($"Inside the code block: {value}");
+}
+
+value = 10;
+Console.WriteLine($"Outside the code block: {value}");
+
+// ====================================================================================================================================================
+
