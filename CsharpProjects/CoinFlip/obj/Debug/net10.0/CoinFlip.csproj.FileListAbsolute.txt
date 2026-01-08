@@ -1,0 +1,15 @@
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\CoinFlip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\CoinFlip.AssemblyInfoInputs.cache
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\CoinFlip.AssemblyInfo.cs
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\CoinFlip.csproj.CoreCompileInputs.cache
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\CoinFlip.sourcelink.json
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\bin\Debug\net10.0\CoinFlip.exe
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\bin\Debug\net10.0\CoinFlip.deps.json
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\bin\Debug\net10.0\CoinFlip.runtimeconfig.json
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\bin\Debug\net10.0\CoinFlip.dll
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\bin\Debug\net10.0\CoinFlip.pdb
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\CoinFlip.dll
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\refint\CoinFlip.dll
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\CoinFlip.pdb
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\CoinFlip.genruntimeconfig.cache
+C:\Users\AC\CSharpNETTraining\CsharpProjects\CoinFlip\obj\Debug\net10.0\ref\CoinFlip.dll

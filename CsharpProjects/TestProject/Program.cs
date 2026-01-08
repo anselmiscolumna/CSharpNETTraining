@@ -154,7 +154,7 @@ using System;
 // Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 
 // Console.WriteLine($"There are {fraudulentOrderIDs.Length} fraudulent orders to process.");
-// System.Console.WriteLine();
+// Console.WriteLine();
 
 // string[] names = { "Rowena", "Robin", "Bao"};
 // foreach (string name in names)
@@ -224,7 +224,7 @@ Console.WriteLine($"{firstName} purchased {widgetsPurchased} widgets.");
 // ====================================================================================================================================================
 
 /* ***Coding Challenges for Guidelines on Improving Readability*** */
-
+/*
 string originalMessage = "The quick brown fox jumps over the lazy dog.";
 
 char[] charMessage = originalMessage.ToCharArray();
@@ -244,3 +244,83 @@ string newMessage = new String(charMessage);
 
 Console.WriteLine(newMessage);
 Console.WriteLine($"'o' appears {letterCount} times");
+*/
+
+// ====================================================================================================================================================
+
+/* ***Equality Operator Demo*** */
+
+/*
+Console.WriteLine("a" == "a");
+Console.WriteLine("a" == "A");
+Console.WriteLine(1 == 2);
+
+string myValue = "a";
+Console.WriteLine(myValue == "a");
+Console.WriteLine("a" == "a ");
+
+string value1 = " a";
+string value2 = "A ";
+Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
+*/
+
+// ====================================================================================================================================================
+
+/* ***Inequality Operator Demo*** */
+
+/*
+Console.WriteLine("a" != "a");
+Console.WriteLine("a" != "A");
+Console.WriteLine(1 != 2);
+
+string myValue = "a";
+Console.WriteLine(myValue != "a");
+*/
+
+// ====================================================================================================================================================
+
+/* ***Evaluating Comparisons Demo*** */
+
+/*
+Console.WriteLine(1 > 2);
+Console.WriteLine(1 < 2);
+Console.WriteLine(1 >= 1);
+Console.WriteLine(1 <= 1);
+*/
+
+// ====================================================================================================================================================
+
+/* ***Methods Returning Booleans Demo*** */
+
+/*
+string pangram = "The quick brown fox jumps over the lazy dog.";
+Console.WriteLine(pangram.Contains("fox"));
+Console.WriteLine(pangram.Contains("cows"));
+
+// Negate Boolean Logic
+Console.WriteLine(!pangram.Contains("fox"));
+Console.WriteLine(!pangram.Contains("cow"));
+
+Console.WriteLine(pangram.Contains("fox") == false);
+Console.WriteLine(!pangram.Contains("fox"));
+
+int a = 7;
+int b = 6;
+Console.WriteLine(a != b); // output: True
+string s1 = "Hello";
+string s2 = "Hello";
+Console.WriteLine(s1 != s2); // output: False
+*/
+
+// ====================================================================================================================================================
+
+/* ***Conditional Operator Demo*** */
+
+/*
+int saleAmount = 1001;
+// int discount = saleAmount > 1000 ? 100 : 50;
+
+Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+*/
+
+// ====================================================================================================================================================
