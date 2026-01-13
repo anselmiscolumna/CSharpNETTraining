@@ -635,6 +635,7 @@ Console.WriteLine($"Last number: {current}");
 
 /* ***Role Playing Hero Game (While - Do While Loop Challenge)*** */
 
+/* My Solution for Role Playing Game
 Random rand = new Random();
 int heroHealth = 10;
 int monsterHealth = 10;
@@ -667,7 +668,9 @@ do
 } while(monsterHealth > 0 && heroHealth > 0);
 
 Console.WriteLine($"{winner} wins!");
+*/
 
+/* Solution from Learning Path
 int hero = 10;
 int monster = 10;
 
@@ -688,3 +691,53 @@ do
 } while (hero > 0 && monster > 0);
 
 Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
+*/
+
+// ====================================================================================================================================================
+
+/* ***User Input Challenge with Do While*** */
+
+string? readResult;
+int numericValue = 0;
+bool validNumber = false;
+
+Console.WriteLine("Enter an integer value between 5 and 10 ");
+
+
+do
+{
+  readResult = Console.ReadLine();
+  if (readResult != null)
+  {
+    validNumber = int.TryParse(readResult, out numericValue);
+    if (validNumber == true)
+    {
+      if(!(numericValue > 5 && numericValue < 10))
+        Console.WriteLine($"You entered {numericValue}. Please enter a number between 5 and 10.");
+    }
+    else
+      Console.WriteLine("Sorry, you entered an invalid number, please try again");
+  }
+} while (!(numericValue > 5 && numericValue < 10));
+Console.WriteLine($"Your input value ({numericValue}) has been accepted.");
+
+Console.WriteLine($"Enter your role name (Administrator, Manager, or User)");
+
+bool validEntry = false;
+string role = "";
+
+do
+{
+  readResult = Console.ReadLine();
+  if (readResult != null)
+  {
+    role = readResult.Trim().ToLower();
+
+    if(role == "administrator" || role == "manager" || role == "user")
+      validEntry = true;
+
+    else
+      Console.WriteLine($"The role name that you entered, \"{role}\" is not valid. Enter your role name (Administrator, Manager, or User)");
+  }
+}while(!validEntry);
+Console.WriteLine($"Your input value ({role}) has been accepted.");
