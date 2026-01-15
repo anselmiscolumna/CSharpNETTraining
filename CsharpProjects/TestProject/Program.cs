@@ -703,7 +703,6 @@ bool validNumber = false;
 
 Console.WriteLine("Enter an integer value between 5 and 10 ");
 
-
 do
 {
   readResult = Console.ReadLine();
@@ -741,3 +740,16 @@ do
   }
 }while(!validEntry);
 Console.WriteLine($"Your input value ({role}) has been accepted.");
+
+string[] myStrings = new string[2] {"I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices"};
+int periodLocation = 0;
+
+foreach(string sentence in myStrings)
+{
+  while(periodLocation != -1)
+  {
+    periodLocation = myString.IndexOf(".");
+    Console.WriteLine(sentence.Substring(periodLocation));
+    
+  }
+};
