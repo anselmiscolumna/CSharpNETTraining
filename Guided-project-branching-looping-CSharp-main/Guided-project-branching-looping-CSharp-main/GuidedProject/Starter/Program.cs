@@ -59,12 +59,12 @@ for (int i = 0; i < maxPets; i++)
             break;
 
         default:
-        animalSpecies = "";
-        animalID = "";
-        animalAge = "";
-        animalPhysicalDescription = "";
-        animalPersonalityDescription = "";
-        animalNickname = "";
+            animalSpecies = "";
+            animalID = "";
+            animalAge = "";
+            animalPhysicalDescription = "";
+            animalPersonalityDescription = "";
+            animalNickname = "";
         break;
     };
     
@@ -273,7 +273,40 @@ switch (menuSelection)
             break;
 
         case "3":
-            Console.WriteLine("Challenge Project - please check back soon to see progress.");
+            bool validateEntry;
+            int currentPetAge;
+            
+            for(int currentPet = 0; currentPet < maxPets; currentPet++)
+            {
+                if(ourAnimals[currentPet, 0] != "ID #: ")
+                {
+                    Console.WriteLine(currentPet);
+                    Console.WriteLine(ourAnimals[currentPet, 2]);
+                    if(ourAnimals[currentPet, 2].Contains("?"))
+                    {
+                        Console.WriteLine("Commencing Age Pull");
+                        do
+                        {
+                            Console.WriteLine($"Enter an age for ID #: {ourAnimals[currentPet, 0].Substring((ourAnimals[currentPet,0].Length - 2))}");
+                            readResult = Console.ReadLine();
+
+                            
+                            if (readResult != null)
+                            {
+                                animalAge = readResult;
+                                validateEntry = int.TryParse(animalAge, out currentPetAge);
+                            }
+                            else
+                            {
+                                validateEntry = false;
+                            }
+
+                        } while( validateEntry == false);
+
+                        ourAnimals[currentPet, 2] = "Age: " + animalAge;
+                    }
+                }
+            }
             Console.WriteLine("Press the Enter key to continue.");
             readResult = Console.ReadLine();
             break;
